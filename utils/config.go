@@ -33,7 +33,7 @@ type Config struct {
 
 	OAuth struct {
 		URL string `json:"url"`
-	}
+	} `json:"oauth"`
 }
 
 func GetConfig() Config {
