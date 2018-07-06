@@ -42,7 +42,7 @@ func GetConfig() Config {
 	cfgDir := os.Getenv("CONFIGDIR")
 
 	if cfgDir == "" {
-		cfgDir = "./configs"
+		cfgDir = "./src/configs"
 	}
 
 	env := os.Getenv("ENV")
